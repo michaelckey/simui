@@ -1,0 +1,3 @@
+[submodule "sora"]
+	path = sora
+	url = https://github.com/michaelckey/sora.git
