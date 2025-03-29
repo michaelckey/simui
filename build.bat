@@ -14,13 +14,13 @@
 :: notes: 
 ::     - argument order can be specified in any sequence.
 ::     - source_file can be specified with or without a file extensions.
-::     - source_file defaults to "simui_testing.cpp"
+::     - source_file defaults to "sui_testing.cpp"
 ::
 :: examples:
-::     build.bat                          compile simui_testing.cpp with default settings.
-::     build.bat debug                    compile simui_testing.cpp in debug mode with default compiler.
+::     build.bat                          compile sui_testing.cpp with default settings.
+::     build.bat debug                    compile sui_testing.cpp in debug mode with default compiler.
 ::     build.bat clang myfile             compile myfile with default build mode with Clang.
-::     build.bat release msvc             compile simui_testing.cpp in release mode with MSVC.
+::     build.bat release msvc             compile sui_testing.cpp in release mode with MSVC.
 ::     build.bat myfile.cpp               compile myfile.cpp with default settings
 ::     build.bat debug myfile.cpp clang   combine options in any order.
 ::
@@ -53,7 +53,7 @@ set "clang_release_link_flags=-Xlinker /SUBSYSTEM:WINDOWS"
 :: defaults
 set "build_mode=debug"
 set "compiler=msvc"
-set "src_file=simui_testing"
+set "src_file=sui_testing"
 
 :: get arguments
 for %%a in (%*) do (
